@@ -1,0 +1,23 @@
+on:
+  schedule:
+    - cron: '22 22 * * *'
+  push:
+    branches:
+      - master
+
+jobs:
+  update_upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: upstream
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git remote add upstream https://github.com/cbuijs/ripe-geo
+          git fetch upstream
+          git reset upstream/master
+          git add .
+          git commit -m "$(git log --format=%B -n 1 upstream/master)"
+          git push
