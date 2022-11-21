@@ -23,6 +23,7 @@ jobs:
           git push
 
   update_continents:
+    if: ${{ always() }}  # run even if jobs from "needs" failed
     needs: update_upstream
     runs-on: ubuntu-latest
     steps:
