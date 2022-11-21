@@ -17,7 +17,7 @@ jobs:
           git config user.email github-actions@github.com
           git remote add upstream https://github.com/cbuijs/ripe-geo
           git fetch upstream
-          git git restore --source upstream/master *
+          git restore --source upstream/master *
           git add -u
           git commit -m "$(git log --format=%B -n 1 upstream/master)"
           git push
