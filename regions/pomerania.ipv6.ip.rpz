@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1669802804 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1669889494 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 ;
@@ -74,6 +74,7 @@ $TTL 3600
 48.zz.3e4.678.2001.rpz-ip CNAME .
 48.zz.3e8.678.2001.rpz-ip CNAME .
 48.zz.3f0.678.2001.rpz-ip CNAME .
+48.zz.3f4.678.2001.rpz-ip CNAME .
 48.zz.400.678.2001.rpz-ip CNAME .
 48.zz.414.678.2001.rpz-ip CNAME .
 48.zz.44c.678.2001.rpz-ip CNAME .
@@ -217,6 +218,7 @@ $TTL 3600
 48.zz.a98.678.2001.rpz-ip CNAME .
 48.zz.a9c.678.2001.rpz-ip CNAME .
 48.zz.aa0.678.2001.rpz-ip CNAME .
+48.zz.aac.678.2001.rpz-ip CNAME .
 48.zz.ab0.678.2001.rpz-ip CNAME .
 48.zz.acc.678.2001.rpz-ip CNAME .
 48.zz.ad0.678.2001.rpz-ip CNAME .
@@ -294,6 +296,7 @@ $TTL 3600
 48.zz.e74.678.2001.rpz-ip CNAME .
 48.zz.e78.678.2001.rpz-ip CNAME .
 48.zz.e80.678.2001.rpz-ip CNAME .
+48.zz.e98.678.2001.rpz-ip CNAME .
 48.zz.e9c.678.2001.rpz-ip CNAME .
 48.zz.ea0.678.2001.rpz-ip CNAME .
 48.zz.ec8.678.2001.rpz-ip CNAME .
@@ -383,6 +386,7 @@ $TTL 3600
 48.zz.434.67c.2001.rpz-ip CNAME .
 48.zz.44c.67c.2001.rpz-ip CNAME .
 48.zz.468.67c.2001.rpz-ip CNAME .
+48.zz.484.67c.2001.rpz-ip CNAME .
 48.zz.4a0.67c.2001.rpz-ip CNAME .
 48.zz.4c8.67c.2001.rpz-ip CNAME .
 48.zz.4d0.67c.2001.rpz-ip CNAME .
@@ -541,6 +545,7 @@ $TTL 3600
 48.zz.13dc.67c.2001.rpz-ip CNAME .
 45.zz.1400.67c.2001.rpz-ip CNAME .
 48.zz.1420.67c.2001.rpz-ip CNAME .
+48.zz.142c.67c.2001.rpz-ip CNAME .
 48.zz.143c.67c.2001.rpz-ip CNAME .
 45.zz.1460.67c.2001.rpz-ip CNAME .
 48.zz.1498.67c.2001.rpz-ip CNAME .
@@ -670,6 +675,7 @@ $TTL 3600
 48.zz.2360.67c.2001.rpz-ip CNAME .
 48.zz.2374.67c.2001.rpz-ip CNAME .
 48.zz.2378.67c.2001.rpz-ip CNAME .
+48.zz.2388.67c.2001.rpz-ip CNAME .
 48.zz.2394.67c.2001.rpz-ip CNAME .
 48.zz.23a8.67c.2001.rpz-ip CNAME .
 48.zz.23f4.67c.2001.rpz-ip CNAME .
@@ -742,6 +748,7 @@ $TTL 3600
 48.zz.2928.67c.2001.rpz-ip CNAME .
 48.zz.2934.67c.2001.rpz-ip CNAME .
 48.zz.293c.67c.2001.rpz-ip CNAME .
+48.zz.2950.67c.2001.rpz-ip CNAME .
 48.zz.295c.67c.2001.rpz-ip CNAME .
 48.zz.2960.67c.2001.rpz-ip CNAME .
 48.zz.2978.67c.2001.rpz-ip CNAME .
@@ -911,6 +918,7 @@ $TTL 3600
 48.zz.10d.7f8.2001.rpz-ip CNAME .
 48.zz.116.7f8.2001.rpz-ip CNAME .
 48.zz.11a.7f8.2001.rpz-ip CNAME .
+48.zz.11f.7f8.2001.rpz-ip CNAME .
 48.zz.12e.7f8.2001.rpz-ip CNAME .
 46.zz.138.7f8.2001.rpz-ip CNAME .
 48.zz.13c.7f8.2001.rpz-ip CNAME .
