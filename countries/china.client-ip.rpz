@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1671530664 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1671617062 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 24.0.1.0.1.rpz-client-ip CNAME .
@@ -1015,7 +1015,6 @@ $TTL 3600
 22.0.24.9.103.rpz-client-ip CNAME .
 22.0.108.9.103.rpz-client-ip CNAME .
 22.0.152.9.103.rpz-client-ip CNAME .
-22.0.192.9.103.rpz-client-ip CNAME .
 21.0.248.9.103.rpz-client-ip CNAME .
 22.0.0.10.103.rpz-client-ip CNAME .
 22.0.16.10.103.rpz-client-ip CNAME .
@@ -1511,7 +1510,6 @@ $TTL 3600
 19.0.224.72.103.rpz-client-ip CNAME .
 19.0.0.73.103.rpz-client-ip CNAME .
 22.0.48.73.103.rpz-client-ip CNAME .
-22.0.96.73.103.rpz-client-ip CNAME .
 22.0.116.73.103.rpz-client-ip CNAME .
 22.0.120.73.103.rpz-client-ip CNAME .
 20.0.128.73.103.rpz-client-ip CNAME .
@@ -2217,7 +2215,6 @@ $TTL 3600
 23.0.250.152.103.rpz-client-ip CNAME .
 23.0.4.153.103.rpz-client-ip CNAME .
 23.0.36.153.103.rpz-client-ip CNAME .
-23.0.98.153.103.rpz-client-ip CNAME .
 23.0.100.153.103.rpz-client-ip CNAME .
 23.0.114.153.103.rpz-client-ip CNAME .
 23.0.122.153.103.rpz-client-ip CNAME .
@@ -2245,7 +2242,6 @@ $TTL 3600
 23.0.120.155.103.rpz-client-ip CNAME .
 23.0.214.155.103.rpz-client-ip CNAME .
 23.0.248.155.103.rpz-client-ip CNAME .
-23.0.24.156.103.rpz-client-ip CNAME .
 23.0.28.156.103.rpz-client-ip CNAME .
 23.0.68.156.103.rpz-client-ip CNAME .
 23.0.78.156.103.rpz-client-ip CNAME .
@@ -5550,7 +5546,6 @@ $TTL 3600
 48.zz.1880.df4.2001.rpz-client-ip CNAME .
 48.zz.2780.df4.2001.rpz-client-ip CNAME .
 48.zz.2e80.df4.2001.rpz-client-ip CNAME .
-48.zz.3c80.df4.2001.rpz-client-ip CNAME .
 48.zz.3d80.df4.2001.rpz-client-ip CNAME .
 48.zz.4b80.df4.2001.rpz-client-ip CNAME .
 48.zz.4d80.df4.2001.rpz-client-ip CNAME .
@@ -7115,7 +7110,6 @@ $TTL 3600
 32.zz.7a80.2406.rpz-client-ip CNAME .
 32.zz.7b80.2406.rpz-client-ip CNAME .
 32.zz.7c80.2406.rpz-client-ip CNAME .
-32.zz.7cc0.2406.rpz-client-ip CNAME .
 32.zz.7d00.2406.rpz-client-ip CNAME .
 32.zz.7d80.2406.rpz-client-ip CNAME .
 32.zz.7e80.2406.rpz-client-ip CNAME .

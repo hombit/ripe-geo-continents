@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1671530766 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1671617157 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 22.0.28.56.2.rpz-client-ip CNAME .
@@ -2278,7 +2278,7 @@ $TTL 3600
 29.zz.1b70.2001.rpz-client-ip CNAME .
 29.zz.1ba8.2001.rpz-client-ip CNAME .
 20.zz.2000.2001.rpz-client-ip CNAME .
-32.zz.4040.2001.rpz-client-ip CNAME .
+29.zz.4040.2001.rpz-client-ip CNAME .
 32.zz.4db8.2001.rpz-client-ip CNAME .
 32.zz.3e20.2400.rpz-client-ip CNAME .
 32.zz.1600.2407.rpz-client-ip CNAME .
@@ -2754,6 +2754,7 @@ $TTL 3600
 29.zz.25c0.2a13.rpz-client-ip CNAME .
 29.zz.4e40.2a13.rpz-client-ip CNAME .
 29.zz.5240.2a13.rpz-client-ip CNAME .
+29.zz.6740.2a13.rpz-client-ip CNAME .
 29.zz.7c80.2a13.rpz-client-ip CNAME .
 ;
 ; ---- EOF ----
