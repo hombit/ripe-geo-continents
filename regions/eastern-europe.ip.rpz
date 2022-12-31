@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1672394806 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1672484697 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 22.0.0.56.2.rpz-ip CNAME .
@@ -1610,7 +1610,6 @@ $TTL 3600
 21.0.240.149.45.rpz-ip CNAME .
 22.0.4.150.45.rpz-ip CNAME .
 22.0.8.150.45.rpz-ip CNAME .
-22.0.24.150.45.rpz-ip CNAME .
 22.0.36.150.45.rpz-ip CNAME .
 22.0.44.150.45.rpz-ip CNAME .
 22.0.60.150.45.rpz-ip CNAME .
@@ -8860,7 +8859,6 @@ $TTL 3600
 19.0.0.94.109.rpz-ip CNAME .
 19.0.64.94.109.rpz-ip CNAME .
 24.0.110.94.109.rpz-ip CNAME .
-22.0.172.94.109.rpz-ip CNAME .
 20.0.176.94.109.rpz-ip CNAME .
 20.0.192.94.109.rpz-ip CNAME .
 22.0.208.94.109.rpz-ip CNAME .
@@ -12272,7 +12270,6 @@ $TTL 3600
 22.0.100.171.185.rpz-ip CNAME .
 22.0.140.171.185.rpz-ip CNAME .
 22.0.148.171.185.rpz-ip CNAME .
-22.0.160.171.185.rpz-ip CNAME .
 22.0.184.171.185.rpz-ip CNAME .
 22.0.192.171.185.rpz-ip CNAME .
 24.0.203.171.185.rpz-ip CNAME .
@@ -12381,7 +12378,7 @@ $TTL 3600
 22.0.212.179.185.rpz-ip CNAME .
 22.0.224.179.185.rpz-ip CNAME .
 22.0.0.180.185.rpz-ip CNAME .
-22.0.12.180.185.rpz-ip CNAME .
+23.0.14.180.185.rpz-ip CNAME .
 22.0.40.180.185.rpz-ip CNAME .
 22.0.56.180.185.rpz-ip CNAME .
 22.0.72.180.185.rpz-ip CNAME .
@@ -16521,7 +16518,7 @@ $TTL 3600
 16.0.0.92.194.rpz-ip CNAME .
 22.0.0.93.194.rpz-ip CNAME .
 22.0.12.93.194.rpz-ip CNAME .
-21.0.24.93.194.rpz-ip CNAME .
+22.0.28.93.194.rpz-ip CNAME .
 22.0.36.93.194.rpz-ip CNAME .
 22.0.56.93.194.rpz-ip CNAME .
 24.0.99.93.194.rpz-ip CNAME .
@@ -17720,7 +17717,6 @@ $TTL 3600
 24.0.112.114.195.rpz-ip CNAME .
 22.0.116.114.195.rpz-ip CNAME .
 22.0.120.114.195.rpz-ip CNAME .
-23.0.124.114.195.rpz-ip CNAME .
 18.0.128.114.195.rpz-ip CNAME .
 15.0.0.116.195.rpz-ip CNAME .
 18.0.192.122.195.rpz-ip CNAME .
@@ -21581,7 +21577,6 @@ $TTL 3600
 32.zz.7240.2a03.rpz-ip CNAME .
 32.zz.7320.2a03.rpz-ip CNAME .
 32.zz.7380.2a03.rpz-ip CNAME .
-32.zz.73e0.2a03.rpz-ip CNAME .
 32.zz.7420.2a03.rpz-ip CNAME .
 32.zz.7460.2a03.rpz-ip CNAME .
 32.zz.7540.2a03.rpz-ip CNAME .
