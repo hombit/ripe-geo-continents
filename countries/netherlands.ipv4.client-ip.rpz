@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1674209129 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1674295531 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 13.0.0.16.2.rpz-client-ip CNAME .
@@ -1060,6 +1060,7 @@ $TTL 3600
 20.0.96.79.80.rpz-client-ip CNAME .
 20.0.192.79.80.rpz-client-ip CNAME .
 23.0.80.80.80.rpz-client-ip CNAME .
+20.0.64.82.80.rpz-client-ip CNAME .
 19.0.224.84.80.rpz-client-ip CNAME .
 20.0.32.85.80.rpz-client-ip CNAME .
 20.0.128.85.80.rpz-client-ip CNAME .
@@ -1439,6 +1440,7 @@ $TTL 3600
 20.0.176.221.89.rpz-client-ip CNAME .
 23.0.64.248.89.rpz-client-ip CNAME .
 20.0.128.248.89.rpz-client-ip CNAME .
+20.0.160.248.89.rpz-client-ip CNAME .
 20.0.64.250.89.rpz-client-ip CNAME .
 22.0.0.251.89.rpz-client-ip CNAME .
 18.0.0.255.89.rpz-client-ip CNAME .
@@ -1833,6 +1835,7 @@ $TTL 3600
 21.0.136.157.93.rpz-client-ip CNAME .
 21.0.200.158.93.rpz-client-ip CNAME .
 20.0.208.158.93.rpz-client-ip CNAME .
+21.0.88.174.93.rpz-client-ip CNAME .
 21.0.104.174.93.rpz-client-ip CNAME .
 21.0.200.174.93.rpz-client-ip CNAME .
 20.0.144.175.93.rpz-client-ip CNAME .
@@ -1856,6 +1859,7 @@ $TTL 3600
 22.0.216.46.94.rpz-client-ip CNAME .
 18.0.192.75.94.rpz-client-ip CNAME .
 22.0.116.101.94.rpz-client-ip CNAME .
+20.0.48.102.94.rpz-client-ip CNAME .
 20.0.16.103.94.rpz-client-ip CNAME .
 20.0.144.103.94.rpz-client-ip CNAME .
 22.0.248.103.94.rpz-client-ip CNAME .
@@ -3354,6 +3358,7 @@ $TTL 3600
 22.0.96.215.185.rpz-client-ip CNAME .
 22.0.252.215.185.rpz-client-ip CNAME .
 22.0.0.216.185.rpz-client-ip CNAME .
+22.0.140.216.185.rpz-client-ip CNAME .
 22.0.160.216.185.rpz-client-ip CNAME .
 22.0.32.217.185.rpz-client-ip CNAME .
 24.0.60.217.185.rpz-client-ip CNAME .
@@ -3849,7 +3854,7 @@ $TTL 3600
 23.0.134.33.193.rpz-client-ip CNAME .
 23.0.180.33.193.rpz-client-ip CNAME .
 23.0.214.33.193.rpz-client-ip CNAME .
-23.0.220.33.193.rpz-client-ip CNAME .
+24.0.220.33.193.rpz-client-ip CNAME .
 22.0.4.34.193.rpz-client-ip CNAME .
 24.0.81.34.193.rpz-client-ip CNAME .
 24.0.82.34.193.rpz-client-ip CNAME .
