@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1674295438 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1674381838 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 24.0.0.0.1.rpz-client-ip CNAME .
@@ -923,7 +923,6 @@ $TTL 3600
 24.0.231.79.103.rpz-client-ip CNAME .
 23.0.20.80.103.rpz-client-ip CNAME .
 22.0.40.80.103.rpz-client-ip CNAME .
-24.0.53.80.103.rpz-client-ip CNAME .
 23.0.102.80.103.rpz-client-ip CNAME .
 22.0.120.80.103.rpz-client-ip CNAME .
 24.0.128.80.103.rpz-client-ip CNAME .
@@ -1099,7 +1098,6 @@ $TTL 3600
 23.0.234.101.103.rpz-client-ip CNAME .
 22.0.8.102.103.rpz-client-ip CNAME .
 24.0.24.102.103.rpz-client-ip CNAME .
-24.0.39.102.103.rpz-client-ip CNAME .
 24.0.53.102.103.rpz-client-ip CNAME .
 24.0.105.102.103.rpz-client-ip CNAME .
 24.0.118.102.103.rpz-client-ip CNAME .
@@ -6643,7 +6641,6 @@ $TTL 3600
 48.zz.b600.df6.2001.rpz-client-ip CNAME .
 48.zz.c200.df6.2001.rpz-client-ip CNAME .
 48.zz.c500.df6.2001.rpz-client-ip CNAME .
-48.zz.ca00.df6.2001.rpz-client-ip CNAME .
 48.zz.cd80.df6.2001.rpz-client-ip CNAME .
 48.zz.d480.df6.2001.rpz-client-ip CNAME .
 48.zz.d500.df6.2001.rpz-client-ip CNAME .
