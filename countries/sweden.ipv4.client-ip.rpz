@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1675418782 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1675505171 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 22.0.28.56.2.rpz-client-ip CNAME .
@@ -229,6 +229,7 @@ $TTL 3600
 20.0.80.110.78.rpz-client-ip CNAME .
 19.0.192.156.78.rpz-client-ip CNAME .
 15.0.0.64.79.rpz-client-ip CNAME .
+16.0.0.72.79.rpz-client-ip CNAME .
 21.0.0.99.79.rpz-client-ip CNAME .
 21.0.168.99.79.rpz-client-ip CNAME .
 21.0.224.99.79.rpz-client-ip CNAME .
@@ -268,6 +269,7 @@ $TTL 3600
 20.0.208.94.80.rpz-client-ip CNAME .
 16.0.0.170.80.rpz-client-ip CNAME .
 15.0.0.216.80.rpz-client-ip CNAME .
+16.0.0.225.80.rpz-client-ip CNAME .
 17.0.128.239.80.rpz-client-ip CNAME .
 19.0.64.244.80.rpz-client-ip CNAME .
 20.0.192.244.80.rpz-client-ip CNAME .
@@ -348,6 +350,7 @@ $TTL 3600
 21.0.24.243.83.rpz-client-ip CNAME .
 13.0.0.248.83.rpz-client-ip CNAME .
 16.0.0.8.84.rpz-client-ip CNAME .
+16.0.0.13.84.rpz-client-ip CNAME .
 19.0.192.17.84.rpz-client-ip CNAME .
 19.0.128.19.84.rpz-client-ip CNAME .
 19.0.128.23.84.rpz-client-ip CNAME .
@@ -439,6 +442,7 @@ $TTL 3600
 20.0.208.107.89.rpz-client-ip CNAME .
 18.0.192.150.89.rpz-client-ip CNAME .
 17.0.0.160.89.rpz-client-ip CNAME .
+17.0.0.168.89.rpz-client-ip CNAME .
 19.0.192.189.89.rpz-client-ip CNAME .
 20.0.240.221.89.rpz-client-ip CNAME .
 18.0.0.233.89.rpz-client-ip CNAME .
@@ -817,6 +821,7 @@ $TTL 3600
 21.0.176.40.164.rpz-client-ip CNAME .
 16.0.0.48.164.rpz-client-ip CNAME .
 16.0.0.135.164.rpz-client-ip CNAME .
+24.0.38.234.167.rpz-client-ip CNAME .
 20.0.112.102.170.rpz-client-ip CNAME .
 17.0.128.102.170.rpz-client-ip CNAME .
 22.0.68.22.171.rpz-client-ip CNAME .
