@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1676455623 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1676542023 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 19.0.224.178.1.rpz-ip CNAME .
@@ -5020,7 +5020,7 @@ $TTL 3600
 24.0.73.97.83.rpz-ip CNAME .
 23.0.74.97.83.rpz-ip CNAME .
 24.0.76.97.83.rpz-ip CNAME .
-24.0.78.97.83.rpz-ip CNAME .
+23.0.78.97.83.rpz-ip CNAME .
 20.0.80.97.83.rpz-ip CNAME .
 19.0.96.97.83.rpz-ip CNAME .
 17.0.128.97.83.rpz-ip CNAME .
@@ -12914,7 +12914,6 @@ $TTL 3600
 19.0.32.123.176.rpz-ip CNAME .
 19.0.128.123.176.rpz-ip CNAME .
 20.0.160.123.176.rpz-ip CNAME .
-22.0.180.123.176.rpz-ip CNAME .
 21.0.184.123.176.rpz-ip CNAME .
 19.0.192.123.176.rpz-ip CNAME .
 19.0.0.124.176.rpz-ip CNAME .
@@ -13209,7 +13208,12 @@ $TTL 3600
 20.0.16.212.178.rpz-ip CNAME .
 20.0.32.212.178.rpz-ip CNAME .
 21.0.48.212.178.rpz-ip CNAME .
-18.0.64.212.178.rpz-ip CNAME .
+20.0.64.212.178.rpz-ip CNAME .
+21.0.80.212.178.rpz-ip CNAME .
+22.0.88.212.178.rpz-ip CNAME .
+24.0.92.212.178.rpz-ip CNAME .
+23.0.94.212.178.rpz-ip CNAME .
+19.0.96.212.178.rpz-ip CNAME .
 17.0.128.212.178.rpz-ip CNAME .
 17.0.0.213.178.rpz-ip CNAME .
 21.0.136.213.178.rpz-ip CNAME .
@@ -20944,6 +20948,7 @@ $TTL 3600
 24.0.112.152.192.rpz-ip CNAME .
 24.0.122.152.192.rpz-ip CNAME .
 24.0.124.152.192.rpz-ip CNAME .
+24.0.126.152.192.rpz-ip CNAME .
 24.0.141.152.192.rpz-ip CNAME .
 24.0.151.152.192.rpz-ip CNAME .
 24.0.156.152.192.rpz-ip CNAME .
@@ -30146,6 +30151,7 @@ $TTL 3600
 48.zz.b7c.67c.2001.rpz-ip CNAME .
 48.zz.b80.67c.2001.rpz-ip CNAME .
 48.zz.b84.67c.2001.rpz-ip CNAME .
+48.zz.b94.67c.2001.rpz-ip CNAME .
 47.zz.1000.67c.2001.rpz-ip CNAME .
 47.zz.1008.67c.2001.rpz-ip CNAME .
 47.zz.1010.67c.2001.rpz-ip CNAME .
@@ -49889,7 +49895,6 @@ $TTL 3600
 29.zz.2a80.2a13.rpz-ip CNAME .
 29.zz.2ac0.2a13.rpz-ip CNAME .
 29.zz.2b00.2a13.rpz-ip CNAME .
-29.zz.2b40.2a13.rpz-ip CNAME .
 29.zz.2b80.2a13.rpz-ip CNAME .
 29.zz.2bc0.2a13.rpz-ip CNAME .
 29.zz.2c00.2a13.rpz-ip CNAME .
@@ -50136,7 +50141,6 @@ $TTL 3600
 29.zz.7f00.2a13.rpz-ip CNAME .
 29.zz.7f80.2a13.rpz-ip CNAME .
 29.zz.8000.2a13.rpz-ip CNAME .
-29.zz.8100.2a13.rpz-ip CNAME .
 29.zz.8300.2a13.rpz-ip CNAME .
 32.zz.8400.2a13.rpz-ip CNAME .
 29.zz.8500.2a13.rpz-ip CNAME .
@@ -50145,21 +50149,15 @@ $TTL 3600
 29.zz.8b00.2a13.rpz-ip CNAME .
 32.zz.8c00.2a13.rpz-ip CNAME .
 29.zz.8d00.2a13.rpz-ip CNAME .
-29.zz.8f00.2a13.rpz-ip CNAME .
 29.zz.9000.2a13.rpz-ip CNAME .
-29.zz.9100.2a13.rpz-ip CNAME .
 29.zz.9400.2a13.rpz-ip CNAME .
 29.zz.9500.2a13.rpz-ip CNAME .
 29.zz.9700.2a13.rpz-ip CNAME .
 29.zz.9800.2a13.rpz-ip CNAME .
 32.zz.9900.2a13.rpz-ip CNAME .
-29.zz.9b00.2a13.rpz-ip CNAME .
 29.zz.9c00.2a13.rpz-ip CNAME .
-29.zz.9d00.2a13.rpz-ip CNAME .
 32.zz.9e00.2a13.rpz-ip CNAME .
-29.zz.9f00.2a13.rpz-ip CNAME .
 32.zz.a000.2a13.rpz-ip CNAME .
-29.zz.a100.2a13.rpz-ip CNAME .
 29.zz.a200.2a13.rpz-ip CNAME .
 29.zz.a300.2a13.rpz-ip CNAME .
 29.zz.a400.2a13.rpz-ip CNAME .
@@ -50183,11 +50181,19 @@ $TTL 3600
 29.zz.c100.2a13.rpz-ip CNAME .
 29.zz.c200.2a13.rpz-ip CNAME .
 29.zz.c300.2a13.rpz-ip CNAME .
+29.zz.c500.2a13.rpz-ip CNAME .
 29.zz.c600.2a13.rpz-ip CNAME .
+29.zz.c700.2a13.rpz-ip CNAME .
+29.zz.c900.2a13.rpz-ip CNAME .
 29.zz.ca00.2a13.rpz-ip CNAME .
+29.zz.cb00.2a13.rpz-ip CNAME .
 29.zz.cc00.2a13.rpz-ip CNAME .
+29.zz.cd00.2a13.rpz-ip CNAME .
 29.zz.ce00.2a13.rpz-ip CNAME .
+29.zz.cf00.2a13.rpz-ip CNAME .
+29.zz.d100.2a13.rpz-ip CNAME .
 29.zz.d200.2a13.rpz-ip CNAME .
+29.zz.d300.2a13.rpz-ip CNAME .
 29.zz.d600.2a13.rpz-ip CNAME .
 32.zz.d800.2a13.rpz-ip CNAME .
 29.zz.dc00.2a13.rpz-ip CNAME .
@@ -50203,6 +50209,5 @@ $TTL 3600
 29.zz.f400.2a13.rpz-ip CNAME .
 29.zz.f600.2a13.rpz-ip CNAME .
 29.zz.f800.2a13.rpz-ip CNAME .
-29.zz.fa00.2a13.rpz-ip CNAME .
 ;
 ; ---- EOF ----
