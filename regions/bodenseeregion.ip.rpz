@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1676974023 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1677060406 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 22.0.20.56.2.rpz-ip CNAME .
@@ -2127,6 +2127,8 @@ $TTL 3600
 24.0.200.202.85.rpz-ip CNAME .
 24.0.203.202.85.rpz-ip CNAME .
 22.0.204.202.85.rpz-ip CNAME .
+24.0.37.204.85.rpz-ip CNAME .
+24.0.39.204.85.rpz-ip CNAME .
 23.0.54.204.85.rpz-ip CNAME .
 23.0.96.204.85.rpz-ip CNAME .
 16.0.0.205.85.rpz-ip CNAME .
@@ -2151,7 +2153,6 @@ $TTL 3600
 22.0.184.209.85.rpz-ip CNAME .
 22.0.200.209.85.rpz-ip CNAME .
 22.0.252.209.85.rpz-ip CNAME .
-16.0.0.212.85.rpz-ip CNAME .
 15.0.0.214.85.rpz-ip CNAME .
 17.0.0.216.85.rpz-ip CNAME .
 22.0.160.217.85.rpz-ip CNAME .
@@ -4938,7 +4939,9 @@ $TTL 3600
 22.0.156.44.185.rpz-ip CNAME .
 22.0.176.44.185.rpz-ip CNAME .
 22.0.196.44.185.rpz-ip CNAME .
-21.0.200.44.185.rpz-ip CNAME .
+22.0.200.44.185.rpz-ip CNAME .
+24.0.205.44.185.rpz-ip CNAME .
+23.0.206.44.185.rpz-ip CNAME .
 22.0.208.44.185.rpz-ip CNAME .
 22.0.16.45.185.rpz-ip CNAME .
 22.0.88.45.185.rpz-ip CNAME .
@@ -5464,6 +5467,7 @@ $TTL 3600
 22.0.12.102.185.rpz-ip CNAME .
 21.0.56.102.185.rpz-ip CNAME .
 22.0.64.102.185.rpz-ip CNAME .
+24.0.84.102.185.rpz-ip CNAME .
 22.0.92.102.185.rpz-ip CNAME .
 22.0.104.102.185.rpz-ip CNAME .
 22.0.152.102.185.rpz-ip CNAME .
@@ -9040,7 +9044,6 @@ $TTL 3600
 24.0.140.228.193.rpz-ip CNAME .
 24.0.142.228.193.rpz-ip CNAME .
 23.0.144.228.193.rpz-ip CNAME .
-24.0.146.228.193.rpz-ip CNAME .
 23.0.148.228.193.rpz-ip CNAME .
 24.0.150.228.193.rpz-ip CNAME .
 24.0.154.228.193.rpz-ip CNAME .
@@ -11224,6 +11227,7 @@ $TTL 3600
 24.0.241.79.204.rpz-ip CNAME .
 24.0.242.79.204.rpz-ip CNAME .
 21.0.64.154.204.rpz-ip CNAME .
+24.0.100.174.204.rpz-ip CNAME .
 24.0.228.231.204.rpz-ip CNAME .
 19.0.32.195.206.rpz-ip CNAME .
 22.0.20.225.206.rpz-ip CNAME .
@@ -11499,7 +11503,6 @@ $TTL 3600
 21.0.208.47.213.rpz-ip CNAME .
 22.0.216.47.213.rpz-ip CNAME .
 19.0.224.47.213.rpz-ip CNAME .
-16.0.0.54.213.rpz-ip CNAME .
 17.0.128.55.213.rpz-ip CNAME .
 14.0.0.68.213.rpz-ip CNAME .
 18.0.64.73.213.rpz-ip CNAME .

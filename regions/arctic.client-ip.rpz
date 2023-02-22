@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1676974022 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1677060405 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 22.0.24.56.2.rpz-client-ip CNAME .
@@ -1343,7 +1343,6 @@ $TTL 3600
 21.0.208.87.77.rpz-client-ip CNAME .
 18.0.0.88.77.rpz-client-ip CNAME .
 19.0.64.91.77.rpz-client-ip CNAME .
-20.0.96.91.77.rpz-client-ip CNAME .
 21.0.192.91.77.rpz-client-ip CNAME .
 21.0.224.91.77.rpz-client-ip CNAME .
 19.0.96.93.77.rpz-client-ip CNAME .
@@ -1707,7 +1706,10 @@ $TTL 3600
 20.0.224.250.80.rpz-client-ip CNAME .
 20.0.48.251.80.rpz-client-ip CNAME .
 20.0.112.251.80.rpz-client-ip CNAME .
-19.0.128.251.80.rpz-client-ip CNAME .
+20.0.128.251.80.rpz-client-ip CNAME .
+21.0.144.251.80.rpz-client-ip CNAME .
+23.0.154.251.80.rpz-client-ip CNAME .
+22.0.156.251.80.rpz-client-ip CNAME .
 20.0.224.251.80.rpz-client-ip CNAME .
 20.0.16.252.80.rpz-client-ip CNAME .
 19.0.128.252.80.rpz-client-ip CNAME .
@@ -5260,7 +5262,6 @@ $TTL 3600
 22.0.56.4.185.rpz-client-ip CNAME .
 22.0.108.4.185.rpz-client-ip CNAME .
 22.0.144.4.185.rpz-client-ip CNAME .
-22.0.180.4.185.rpz-client-ip CNAME .
 22.0.204.4.185.rpz-client-ip CNAME .
 22.0.16.5.185.rpz-client-ip CNAME .
 21.0.136.5.185.rpz-client-ip CNAME .
@@ -6134,6 +6135,7 @@ $TTL 3600
 22.0.64.161.185.rpz-client-ip CNAME .
 22.0.180.161.185.rpz-client-ip CNAME .
 22.0.196.161.185.rpz-client-ip CNAME .
+24.0.248.161.185.rpz-client-ip CNAME .
 22.0.12.162.185.rpz-client-ip CNAME .
 22.0.32.162.185.rpz-client-ip CNAME .
 22.0.92.162.185.rpz-client-ip CNAME .
@@ -8180,6 +8182,7 @@ $TTL 3600
 23.0.240.93.195.rpz-client-ip CNAME .
 23.0.246.93.195.rpz-client-ip CNAME .
 24.0.248.93.195.rpz-client-ip CNAME .
+23.0.252.93.195.rpz-client-ip CNAME .
 19.0.224.94.195.rpz-client-ip CNAME .
 22.0.212.95.195.rpz-client-ip CNAME .
 23.0.216.95.195.rpz-client-ip CNAME .
@@ -11935,5 +11938,6 @@ $TTL 3600
 29.zz.b200.2a13.rpz-client-ip CNAME .
 29.zz.b300.2a13.rpz-client-ip CNAME .
 29.zz.c200.2a13.rpz-client-ip CNAME .
+29.zz.f300.2a13.rpz-client-ip CNAME .
 ;
 ; ---- EOF ----
