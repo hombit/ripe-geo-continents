@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1677751600 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1677838003 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 23.0.8.56.2.rpz-ip CNAME .
@@ -784,6 +784,7 @@ $TTL 3600
 22.0.192.148.23.rpz-ip CNAME .
 24.0.200.148.23.rpz-ip CNAME .
 24.0.208.148.23.rpz-ip CNAME .
+24.0.216.148.23.rpz-ip CNAME .
 24.0.224.148.23.rpz-ip CNAME .
 24.0.16.149.23.rpz-ip CNAME .
 24.0.32.149.23.rpz-ip CNAME .
@@ -22640,6 +22641,7 @@ $TTL 3600
 32.zz.2f80.2607.rpz-ip CNAME .
 32.zz.2fc0.2607.rpz-ip CNAME .
 32.zz.3000.2607.rpz-ip CNAME .
+32.zz.3040.2607.rpz-ip CNAME .
 32.zz.3080.2607.rpz-ip CNAME .
 32.zz.3100.2607.rpz-ip CNAME .
 32.zz.3180.2607.rpz-ip CNAME .
@@ -29940,7 +29942,6 @@ $TTL 3600
 32.zz.fbc0.2803.rpz-ip CNAME .
 32.zz.fbe0.2803.rpz-ip CNAME .
 32.zz.fc00.2803.rpz-ip CNAME .
-32.zz.fc10.2803.rpz-ip CNAME .
 32.zz.fc20.2803.rpz-ip CNAME .
 32.zz.fc40.2803.rpz-ip CNAME .
 32.zz.fc60.2803.rpz-ip CNAME .
@@ -36504,7 +36505,6 @@ $TTL 3600
 32.zz.70fc.2804.rpz-ip CNAME .
 32.zz.7100.2804.rpz-ip CNAME .
 32.zz.7104.2804.rpz-ip CNAME .
-32.zz.7108.2804.rpz-ip CNAME .
 32.zz.710c.2804.rpz-ip CNAME .
 32.zz.7110.2804.rpz-ip CNAME .
 32.zz.7114.2804.rpz-ip CNAME .
@@ -37431,7 +37431,6 @@ $TTL 3600
 32.zz.7ff8.2804.rpz-ip CNAME .
 32.zz.7ffc.2804.rpz-ip CNAME .
 32.zz.8000.2804.rpz-ip CNAME .
-32.zz.8004.2804.rpz-ip CNAME .
 32.zz.8008.2804.rpz-ip CNAME .
 32.zz.800c.2804.rpz-ip CNAME .
 32.zz.8010.2804.rpz-ip CNAME .
@@ -38104,6 +38103,7 @@ $TTL 3600
 32.zz.8ae4.2804.rpz-ip CNAME .
 32.zz.8ae8.2804.rpz-ip CNAME .
 32.zz.8aec.2804.rpz-ip CNAME .
+32.zz.8af0.2804.rpz-ip CNAME .
 28.zz.2806.rpz-ip CNAME .
 32.zz.200.2806.rpz-ip CNAME .
 31.zz.202.2806.rpz-ip CNAME .
