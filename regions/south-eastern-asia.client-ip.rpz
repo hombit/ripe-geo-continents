@@ -1,6 +1,6 @@
 ; BIND RPZ Zone
 $TTL 3600
-@ SOA dummy-ns hostmaster 1678529215 12h 15m 3w 3h
+@ SOA dummy-ns hostmaster 1678615621 12h 15m 3w 3h
 ;
 ; ---- IPv4 ----
 17.0.128.0.1.rpz-client-ip CNAME .
@@ -2437,6 +2437,7 @@ $TTL 3600
 22.0.240.108.103.rpz-client-ip CNAME .
 23.0.254.108.103.rpz-client-ip CNAME .
 22.0.0.109.103.rpz-client-ip CNAME .
+23.0.8.109.103.rpz-client-ip CNAME .
 21.0.24.109.103.rpz-client-ip CNAME .
 21.0.32.109.103.rpz-client-ip CNAME .
 22.0.40.109.103.rpz-client-ip CNAME .
@@ -2449,15 +2450,15 @@ $TTL 3600
 24.0.149.109.103.rpz-client-ip CNAME .
 21.0.152.109.103.rpz-client-ip CNAME .
 20.0.160.109.103.rpz-client-ip CNAME .
-22.0.188.109.103.rpz-client-ip CNAME .
-21.0.192.109.103.rpz-client-ip CNAME .
-22.0.200.109.103.rpz-client-ip CNAME .
+21.0.184.109.103.rpz-client-ip CNAME .
+20.0.192.109.103.rpz-client-ip CNAME .
 24.0.209.109.103.rpz-client-ip CNAME .
 24.0.210.109.103.rpz-client-ip CNAME .
 24.0.247.109.103.rpz-client-ip CNAME .
 22.0.252.109.103.rpz-client-ip CNAME .
 24.0.4.110.103.rpz-client-ip CNAME .
 22.0.8.110.103.rpz-client-ip CNAME .
+22.0.32.110.103.rpz-client-ip CNAME .
 24.0.41.110.103.rpz-client-ip CNAME .
 24.0.43.110.103.rpz-client-ip CNAME .
 22.0.44.110.103.rpz-client-ip CNAME .
@@ -8637,6 +8638,9 @@ $TTL 3600
 48.zz.1580.df2.2001.rpz-client-ip CNAME .
 48.zz.1680.df2.2001.rpz-client-ip CNAME .
 48.zz.1780.df2.2001.rpz-client-ip CNAME .
+48.zz.1840.df2.2001.rpz-client-ip CNAME .
+48.zz.1940.df2.2001.rpz-client-ip CNAME .
+48.zz.19c0.df2.2001.rpz-client-ip CNAME .
 48.zz.1a00.df2.2001.rpz-client-ip CNAME .
 48.zz.1a80.df2.2001.rpz-client-ip CNAME .
 48.zz.1b80.df2.2001.rpz-client-ip CNAME .
@@ -10038,6 +10042,9 @@ $TTL 3600
 32.zz.e6a0.2400.rpz-client-ip CNAME .
 32.zz.e6c0.2400.rpz-client-ip CNAME .
 32.zz.e6e0.2400.rpz-client-ip CNAME .
+32.zz.e8a0.2400.rpz-client-ip CNAME .
+32.zz.e8e0.2400.rpz-client-ip CNAME .
+32.zz.e920.2400.rpz-client-ip CNAME .
 32.zz.e9c0.2400.rpz-client-ip CNAME .
 32.zz.ea00.2400.rpz-client-ip CNAME .
 32.zz.ea40.2400.rpz-client-ip CNAME .
