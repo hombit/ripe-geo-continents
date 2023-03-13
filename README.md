@@ -2,7 +2,7 @@ Compiled/Aggregated GEO-IP (CIDR) lists using RIPE/GEONAMES/IPDENY
 
 
 
-NOTE: Updates every day around 11:00 (11am) CET.
+*NOTE*: Updates every day around 11:00 (11am) CET.
 
 
 
